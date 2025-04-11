@@ -1,8 +1,11 @@
 # Node modules
-node_modules/
+**/node_modules
 
 # Environment variables
-.env
+/server/.env
+**/.env
+
+
 
 # Logs
 logs/
@@ -14,8 +17,8 @@ npm-debug.log*
 Thumbs.db
 
 # Build output
-dist/
-build/
+**/dist/
+**/build/
 
 # IDE / editor settings
 .vscode/
@@ -24,14 +27,15 @@ build/
 
 # Optional: if you're using Cloudinary upload temp files or Stripe logs
 temp/
-uploads/
+**/uploads/
 
 # Coverage reports
 coverage/
 
 # MongoDB dump files
-dump/
+**/dump/
 
 
 # Data
 seed.js
+
