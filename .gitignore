@@ -1,41 +1,5 @@
-# Node modules
-/server/node_modules
-
-# Environment variables
-/server/.env
-**/.env
-
-
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# OS / system files
-.DS_Store
-Thumbs.db
-
-# Build output
-**/dist/
-**/build/
-
-# IDE / editor settings
-.vscode/
-.idea/
-*.swp
-
-# Optional: if you're using Cloudinary upload temp files or Stripe logs
-temp/
-**/uploads/
-
-# Coverage reports
-coverage/
-
-# MongoDB dump files
-**/dump/
-
-
-# Data
-seed.js
-
+node_modules
+.env
+.env.e2e
+.vscode
+dist
